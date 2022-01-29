@@ -5,36 +5,52 @@ namespace DefaultNamespace
 {
     public class MouseController : MonoBehaviour
     {
-        private Vector3 mousePosition;
-        public BoxCollider targetObject;
-        private float maxX = 17, maxY = 10, ratio = 10;
-        
+        private Vector3 _mousePosition;
+        public Transform targetObject;
+        private const float MAXX = 17, MAXY = 10, RATIO = 10;
+        public Painting paintBrush;
+
         // Use this for initialization
         void Start()
         {
         }
-        
+
         void Update()
         {
-            float x = Mouse.current.position.x.ReadValue()/ratio;
-            float y = Mouse.current.position.y.ReadValue()/ratio;
-            if (x > maxX)
+            var x = Mouse.current.position.x.ReadValue() / RATIO;
+            var y = Mouse.current.position.y.ReadValue() / RATIO;
+            if (x > MAXX)
             {
-                x = maxX;   
+                x = MAXX;
             }
-            else if (x < -maxX)
+            else if (x < -MAXX)
             {
-                x = -maxX;
+                x = -MAXX;
             }
-            if (y > maxY)
+
+            if (y > MAXY)
             {
-                y = maxY;
-            }else if (y < -maxY)
-            {
-                y = -maxY;   
+                y = MAXY;
             }
-            mousePosition = new Vector3(x,y);
-            targetObject.transform.position = mousePosition;
+            else if (y < -MAXY)
+            {
+                y = -MAXY;
+            }
+
+            _mousePosition = new Vector3(x, y);
+            targetObject.transform.position = _mousePosition;
+
+            if (Mouse.current.leftButton.wasPressedThisFrame)
+            {
+                if (paintBrush.isPainting)
+                {
+                    paintBrush.isPainting = false;
+                }
+                else
+                {
+                    paintBrush.isPainting = true;
+                }
+            }
         }
     }
 }
