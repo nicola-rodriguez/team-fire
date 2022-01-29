@@ -61,4 +61,4 @@ sysinfo.txt
 crashlytics-build.properties
 
 # local UserSettings
-/[P]ackages/packages-lock.json
+/[Pp]ackages/packages-lock.json
