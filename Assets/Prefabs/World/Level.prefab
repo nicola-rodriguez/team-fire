@@ -98,6 +98,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameCamera: {fileID: 0}
+  chosenHeight: 1
   levelBounds: {fileID: 3522497651835006835}
 --- !u!1001 &4797569930089391474
 PrefabInstance:
