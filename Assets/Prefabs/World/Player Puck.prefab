@@ -12,7 +12,6 @@ GameObject:
   - component: {fileID: 8855368390638121004}
   - component: {fileID: 8855368390638121005}
   - component: {fileID: 8855368390638121006}
-  - component: {fileID: 8855368390638120994}
   m_Layer: 0
   m_Name: Player Puck
   m_TagString: Untagged
@@ -124,14 +123,3 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!247 &8855368390638120994
-ConstantForce2D:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8855368390638121007}
-  m_Enabled: 1
-  m_Force: {x: 0, y: 0}
-  m_RelativeForce: {x: 2, y: 4}
-  m_Torque: 3
