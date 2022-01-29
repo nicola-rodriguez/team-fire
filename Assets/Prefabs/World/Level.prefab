@@ -79,6 +79,8 @@ Transform:
   - {fileID: 2727325121843478192}
   - {fileID: 2727325123422263790}
   - {fileID: 4117184290704162599}
+  - {fileID: 4067017425313846609}
+  - {fileID: 298758511149104520}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -146,6 +148,70 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 3515408924141130034, guid: 615e3f6fc5207044480ddd3d8dd72451, type: 3}
   m_PrefabInstance: {fileID: 1517812534915008732}
   m_PrefabAsset: {fileID: 0}
+--- !u!1001 &4797569930089391474
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 2837113968423061906}
+    m_Modifications:
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.03
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -5.41
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638121007, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_Name
+      value: Player Puck_LeftController (Green)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+--- !u!4 &4067017425313846609 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+  m_PrefabInstance: {fileID: 4797569930089391474}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &6862906517214957203
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -200,7 +266,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8855368390638121007, guid: d8500ee289c01e843b265f0e8b6cbf3e, type: 3}
       propertyPath: m_Name
-      value: Puck
+      value: Pushed Puck (Cyan)
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_AddedGameObjects: []
@@ -214,4 +280,80 @@ Transform:
 GameObject:
   m_CorrespondingSourceObject: {fileID: 8855368390638121007, guid: d8500ee289c01e843b265f0e8b6cbf3e, type: 3}
   m_PrefabInstance: {fileID: 6862906517214957203}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1001 &9133847508179455403
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 2
+    m_TransformParent: {fileID: 2837113968423061906}
+    m_Modifications:
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 6.88
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638121006, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_Color.b
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638121006, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_Color.g
+      value: 0.5455871
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638121006, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8855368390638121007, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+      propertyPath: m_Name
+      value: Player Puck_RightController (Orange)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_AddedGameObjects: []
+  m_SourcePrefab: {fileID: 100100000, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+--- !u!4 &298758511149104520 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 8855368390638120995, guid: d107a097cb6e5994992c11bde0374688, type: 3}
+  m_PrefabInstance: {fileID: 9133847508179455403}
   m_PrefabAsset: {fileID: 0}
