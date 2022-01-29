@@ -8,6 +8,7 @@ namespace DefaultNamespace
         private Vector3 _mousePosition;
         public Transform targetObject;
         private const float MAXX = 17, MAXY = 10, RATIO = 10;
+        public float zcoord = 10;
         public Painting paintBrush;
 
         // Use this for initialization
@@ -37,7 +38,7 @@ namespace DefaultNamespace
                 y = -MAXY;
             }
 
-            _mousePosition = new Vector3(x, y);
+            _mousePosition = new Vector3(x, y, zcoord);
             targetObject.transform.position = _mousePosition;
 
             if (Mouse.current.leftButton.wasPressedThisFrame)
