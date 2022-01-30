@@ -29,8 +29,8 @@ public class Painting : MonoBehaviour
     {
         if (isPainting)
         {
-            Instantiate(prefabToPaint, brush.transform.position, Quaternion.identity);
-            aList.Add(prefabToPaint);
+            var aGameObject = Instantiate(prefabToPaint, brush.transform.position, Quaternion.identity);
+            aList.Add(aGameObject);
         }
     }
 }

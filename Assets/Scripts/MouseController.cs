@@ -7,8 +7,8 @@ namespace DefaultNamespace
     {
         private Vector3 _mousePosition;
         public Transform targetObject;
-        private const float MAXX = 17, MAXY = 10, RATIO = 10;
-        public float zcoord = 10;
+        private const float MAXX = 1f, MAXY = 0.5f, RATIO = 1000f;
+        public float zcoord = -2;
         public Painting paintBrush;
 
         // Use this for initialization
