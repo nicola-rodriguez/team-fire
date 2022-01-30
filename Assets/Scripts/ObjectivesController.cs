@@ -15,6 +15,7 @@ public class ObjectivesController : MonoBehaviour
         {
             PlaceObjective();
         }
+        GameManager.singleton.objectiveCount = amountObjectives;
     }
 
     // Start is called before the first frame update
