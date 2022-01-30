@@ -3,11 +3,10 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class MainMenu : MonoBehaviour
+public class ReturnToMainMenu : MonoBehaviour
 {
-    public void QuitGame()
+    public void ReturnToMenu()
     {
-        Debug.Log("QUIT!");
-        Application.Quit();
+        SceneManager.LoadScene("Menu");
     }
 }
