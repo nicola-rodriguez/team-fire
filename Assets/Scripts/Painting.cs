@@ -30,6 +30,10 @@ public class Painting : MonoBehaviour
         if (isPainting)
         {
             var aGameObject = Instantiate(prefabToPaint, brush.transform.position, Quaternion.identity);
+            /* LineRend.gameObject.SetActive(true);
+            LineRend.SetVertexCount(2);
+            LineRend.SetPosition(0, aList[aList.Count].transform.position);
+            LineRend.SetPosition(1, aGameObject.transform.position); */
             aList.Add(aGameObject);
         }
     }

@@ -16,8 +16,6 @@ public class GameManager : MonoBehaviour
         }
         else if (singleton != this)
         {
-            this.levelBounds = singleton.levelBounds;
-            this.objectiveCount = singleton.objectiveCount;
             Object.Destroy(gameObject);
         }
     }

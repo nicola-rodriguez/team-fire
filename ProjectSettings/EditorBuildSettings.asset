@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SandboxCoding.unity
     guid: dbca6cb38150e4123b573c194766d82f
+  - enabled: 1
+    path: Assets/Scenes/VictoryScene.unity
+    guid: e38c9ccfcaa568a4c95fedc378471c90
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 75701d4167b9864488dcd8c0a8a00687, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 09fc5708a2a0a465b902433ec16b3f9d, type: 2}
