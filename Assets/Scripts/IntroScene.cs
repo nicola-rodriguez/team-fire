@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class IntroScene : MonoBehaviour
 {
@@ -21,11 +22,15 @@ public class IntroScene : MonoBehaviour
 
     public void OnSubmit()
     {
-        Debug.Log("merp?");
+        Debug.Log("got the submit action");
+        if(handsDistance == 0f)
+            handsDistance = 1f;
+        SetZoneSize();
     }
 
     private void SetZoneSize()
     {
         GameManager.singleton.chosenHeight = handsDistance;
+        SceneManager.LoadScene("Menu");
     }
 }

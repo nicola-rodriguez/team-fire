@@ -523,6 +523,7 @@ GameObject:
   - component: {fileID: 2146004937}
   - component: {fileID: 2146004936}
   - component: {fileID: 2146004938}
+  - component: {fileID: 2146004939}
   m_Layer: 0
   m_Name: IntroManager
   m_TagString: Untagged
@@ -592,3 +593,18 @@ MonoBehaviour:
   m_DefaultActionMap: UI
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &2146004939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2146004935}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3b01234b2f5864d09a4338cd7e0c015d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  levelBounds: {fileID: 0}
+  objectiveCount: 0
+  chosenHeight: 0
