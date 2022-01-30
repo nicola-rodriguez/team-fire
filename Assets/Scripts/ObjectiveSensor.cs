@@ -26,7 +26,7 @@ public class ObjectiveSensor : MonoBehaviour
         if (GameManager.singleton.objectiveCount == 0)
         {
             Debug.Log("You won the game!");
-            SceneManager.LoadScene("Menu");
+            SceneManager.LoadScene("VictoryScene");
         }
     }
 }
