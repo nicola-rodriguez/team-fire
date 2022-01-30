@@ -13,6 +13,8 @@ public class SetPlayZone : MonoBehaviour
     {
         //get the main camera
         gameCamera = Camera.main;
+        //get the chosen height
+        chosenHeight = GameManager.singleton.chosenHeight;
         //set height on camera
         gameCamera.orthographicSize = chosenHeight*.5f;
         //scale the level to match the screen
