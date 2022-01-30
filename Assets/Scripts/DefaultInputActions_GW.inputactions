@@ -628,9 +628,9 @@
                     "isPartOfComposite": false
                 },
                 {
-                    "name": "down",
-                    "id": "bd57e674-e8bd-43b3-9a88-30f12b950570",
-                    "path": "<OculusTouchController>/primaryButton",
+                    "name": "up",
+                    "id": "d7f8d984-2f39-4425-8182-b7bf7fd0d8f8",
+                    "path": "<OculusTouchController>/triggerPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -639,9 +639,9 @@
                     "isPartOfComposite": true
                 },
                 {
-                    "name": "up",
-                    "id": "d7f8d984-2f39-4425-8182-b7bf7fd0d8f8",
-                    "path": "<OculusTouchController>/secondaryButton",
+                    "name": "down",
+                    "id": "bd57e674-e8bd-43b3-9a88-30f12b950570",
+                    "path": "<OculusTouchController>/gripPressed",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
@@ -663,7 +663,7 @@
                 {
                     "name": "",
                     "id": "9a256e72-0435-47ea-b432-9fb6cfc09b53",
-                    "path": "<OculusTouchController>/thumbstickClicked",
+                    "path": "<OculusTouchController>/primaryButton",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
