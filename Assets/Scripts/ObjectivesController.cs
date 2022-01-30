@@ -8,7 +8,6 @@ public class ObjectivesController : MonoBehaviour
     public List<GameObject> listObjectives;
     public int amountObjectives = 4;
     public GameObject prefabObjective;
-    public GameManager aGameManager;
 
     void Awake()
     {
