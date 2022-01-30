@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class ObjectiveSensor : MonoBehaviour
@@ -20,5 +21,10 @@ public class ObjectiveSensor : MonoBehaviour
     {
         this.GetComponent<Collider2D>().enabled = false;
         this.GetComponent<SpriteRenderer>().color = new Color32(13,2,33,255);
+        GameManager.singleton.objectiveCount--;
+        if (GameManager.singleton.objectiveCount == 0)
+        {
+            Debug.Log("You won the game!");
+        }
     }
 }
