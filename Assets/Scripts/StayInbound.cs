@@ -20,28 +20,39 @@ public class StayInbound : MonoBehaviour
     // Update is called once per frame
     void LateUpdate()
     {
-        Transform aTransform = GetComponent<Transform>();
-        var x = aTransform.position.x;
-        var y = aTransform.position.y;
+        Rigidbody2D aRigidbody = GetComponent<Rigidbody2D>();
+        bool reverse = false;
+        var x = transform.position.x;
+        var y = transform.position.y;
         
         if (x > MAXX)
         {
             x = MAXX-RATIOX;
+            reverse = true;
         }
-        else if (aTransform.position.x < -MAXX)
+        else if (x < -MAXX)
         {
             x = -MAXX+RATIOX;
+            reverse = true;
         }
 
         if (y > MAXY)
         {
             y = MAXY-RATIOY;
+            reverse = true;
         }
         else if (y < -MAXY)
         {
             y = -MAXY+RATIOY;
+            reverse = true;
         }
 
-        aTransform.position = new Vector3(x,y,aTransform.position.z);
+        if (reverse)
+        {
+            //aRigidbody.velocity = transform.forward * aRigidbody.velocity.magnitude;
+            aRigidbody.AddForce(-aRigidbody.velocity*2);
+        }
+
+        transform.position = new Vector3(x,y,transform.position.z);
     }
 }
