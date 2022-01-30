@@ -149,6 +149,7 @@ GameObject:
   - component: {fileID: 8855368390638120994}
   - component: {fileID: 6599075403548375877}
   - component: {fileID: 3233066159599926637}
+  - component: {fileID: 7243219186449724951}
   m_Layer: 7
   m_Name: Pushed Puck
   m_TagString: Untagged
@@ -170,7 +171,7 @@ Transform:
   m_Children:
   - {fileID: 4314692767576717344}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &8855368390638121004
 CircleCollider2D:
@@ -382,3 +383,20 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &7243219186449724951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855368390638121007}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 074aa7a81408b4b4eb2fcec956e3c7cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MAXX: 1
+  MAXY: 0.5
+  RATIOX: 100
+  RATIOY: 100
+  zcoord: -2
