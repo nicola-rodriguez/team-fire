@@ -13,7 +13,7 @@ public class ObjectivesController : MonoBehaviour
     void Awake()
     {
         painter = gameObject.GetComponent<Painting>();
-        
+
         int amountObjectiveslocal = amountObjectives;
         if (GameManager.singleton != null)
         {
@@ -25,6 +25,7 @@ public class ObjectivesController : MonoBehaviour
         {
             PlaceObjective();
         }
+        painter.isPainting = true;
     }
 
     // Start is called before the first frame update
