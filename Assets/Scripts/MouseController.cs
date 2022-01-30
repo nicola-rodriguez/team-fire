@@ -51,6 +51,7 @@ namespace DefaultNamespace
             _mousePosition = new Vector3(mousePositionX, mousePositionY, zcoord);
             targetObject.transform.position = _mousePosition;
 
+            /*
             if (Mouse.current.leftButton.wasPressedThisFrame)
             {
                 if (paintBrush.isPainting)
@@ -62,6 +63,7 @@ namespace DefaultNamespace
                     paintBrush.isPainting = true;
                 }
             }
+            */
         }
     }
 }
