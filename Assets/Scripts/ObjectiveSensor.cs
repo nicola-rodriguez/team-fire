@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ObjectiveSensor : MonoBehaviour
 {
@@ -25,6 +26,7 @@ public class ObjectiveSensor : MonoBehaviour
         if (GameManager.singleton.objectiveCount == 0)
         {
             Debug.Log("You won the game!");
+            SceneManager.LoadScene("Menu");
         }
     }
 }
