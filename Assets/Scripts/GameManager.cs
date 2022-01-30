@@ -4,6 +4,7 @@ public class GameManager : MonoBehaviour
     public static GameManager singleton;
     public Transform levelBounds;
     public float chosenHeight = 1f;
+    public int amountOfObjectives = 4;
     public int objectiveCount = 0;
     public int countOfPainted = 0;
     public int gamesWon = 0;
