@@ -3,7 +3,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager singleton;
     public Transform levelBounds;
-    public float chosenHeight;
+    public float chosenHeight = 1f;
     public int objectiveCount = 0;
 
     void Awake()
