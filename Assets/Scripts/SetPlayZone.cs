@@ -9,7 +9,7 @@ public class SetPlayZone : MonoBehaviour
     public Transform levelBounds;
 
     // Start is called before the first frame update
-    void Start()
+    void Awake()
     {
         //get the main camera
         gameCamera = Camera.main;
@@ -18,5 +18,9 @@ public class SetPlayZone : MonoBehaviour
         //scale the level to match the screen
         levelBounds.localScale = new Vector3(((chosenHeight * gameCamera.pixelWidth)/gameCamera.pixelHeight),chosenHeight, 1);
         GameManager.singleton.levelBounds = levelBounds;
+    }
+
+    void Start()
+    {
     }
 }

@@ -1,12 +1,14 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ObjectivesController : MonoBehaviour
 {
     public List<GameObject> listObjectives;
     public int amountObjectives = 4;
     public GameObject prefabObjective;
+    public GameManager aGameManager;
 
     void Awake()
     {
@@ -15,13 +17,12 @@ public class ObjectivesController : MonoBehaviour
         {
             PlaceObjective();
         }
-        GameManager.singleton.objectiveCount = amountObjectives;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        GameManager.singleton.objectiveCount = amountObjectives;
     }
 
     // Update is called once per frame
