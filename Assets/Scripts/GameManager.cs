@@ -3,6 +3,7 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager singleton;
     public Transform levelBounds;
+    public int objectiveCount;
 
     void Awake()
     {
@@ -15,6 +16,7 @@ public class GameManager : MonoBehaviour
         else if (singleton != this)
         {
             this.levelBounds = singleton.levelBounds;
+            this.objectiveCount = singleton.objectiveCount;
             Object.Destroy(gameObject);
         }
     }
