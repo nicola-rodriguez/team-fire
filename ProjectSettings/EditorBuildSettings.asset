@@ -20,6 +20,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/VictoryScene.unity
     guid: e38c9ccfcaa568a4c95fedc378471c90
+  - enabled: 1
+    path: Assets/Scenes/XRGameScene.unity
+    guid: 82b839e58c41aa74d94044cb9de99759
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: 75701d4167b9864488dcd8c0a8a00687, type: 2}
     com.unity.input.settings: {fileID: 11400000, guid: 09fc5708a2a0a465b902433ec16b3f9d, type: 2}
