@@ -31,6 +31,6 @@ public class IntroScene : MonoBehaviour
     private void SetZoneSize()
     {
         GameManager.singleton.chosenHeight = handsDistance;
-        SceneManager.LoadScene("Menu");
+        SceneManager.LoadScene("XRGameScene");
     }
 }

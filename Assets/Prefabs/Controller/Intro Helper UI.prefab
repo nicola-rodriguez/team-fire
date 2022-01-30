@@ -91,7 +91,7 @@ MonoBehaviour:
     3. Hold the Right controller at the bottom of your play zone
 
     4.
-    Press any controller button to start the game!'
+    Press either Trigger to start the game!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
