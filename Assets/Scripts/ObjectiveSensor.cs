@@ -19,6 +19,6 @@ public class ObjectiveSensor : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D other)
     {
         this.GetComponent<Collider2D>().enabled = false;
-        this.GetComponent<SpriteRenderer>().color = new Color(13,2,33,255);
+        this.GetComponent<SpriteRenderer>().color = new Color32(13,2,33,255);
     }
 }

@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4314692767576717344}
   - component: {fileID: 669710613860781021}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Trail
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -147,7 +147,7 @@ GameObject:
   - component: {fileID: 8855368390638121005}
   - component: {fileID: 8855368390638121006}
   - component: {fileID: 8855368390638120994}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Pushed Puck
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -168,7 +168,7 @@ Transform:
   m_Children:
   - {fileID: 4314692767576717344}
   m_Father: {fileID: 0}
-  m_RootOrder: -1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &8855368390638121004
 CircleCollider2D:

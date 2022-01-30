@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 2499321990401472630}
   - component: {fileID: 3602234554201251445}
   - component: {fileID: 8169306834770553175}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: XRControls
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -30,7 +30,7 @@ Transform:
   m_GameObject: {fileID: 4280645464855294052}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.02, y: 0.02, z: 0.2}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -64,7 +64,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 8c13ce81fd8514c67abf5236ba139fb0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -132,7 +132,7 @@ BoxCollider2D:
   m_AutoTiling: 0
   serializedVersion: 2
   m_Size: {x: 1, y: 1}
-  m_EdgeRadius: 2
+  m_EdgeRadius: 0.1
 --- !u!250 &8169306834770553175
 PointEffector2D:
   m_ObjectHideFlags: 0
@@ -144,7 +144,7 @@ PointEffector2D:
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
-    m_Bits: 4294967295
+    m_Bits: 128
   m_ForceMagnitude: 50
   m_ForceVariation: 0
   m_DistanceScale: 1
