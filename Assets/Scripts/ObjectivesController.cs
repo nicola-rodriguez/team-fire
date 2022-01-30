@@ -21,7 +21,7 @@ public class ObjectivesController : MonoBehaviour
         }
         
         listObjectives = new List<GameObject>();
-        for (int i = 0; i < amountObjectives; i++)
+        for (int i = 0; i < amountObjectiveslocal; i++)
         {
             PlaceObjective();
         }
@@ -31,7 +31,7 @@ public class ObjectivesController : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameManager.singleton.objectiveCount = amountObjectives + GameManager.singleton.gamesWon * amountObjectives;
+        GameManager.singleton.objectiveCount = listObjectives.Count;
     }
 
     // Update is called once per frame
