@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 6345653108869538244}
   - component: {fileID: 1255960415553195993}
+  - component: {fileID: 3374646483245681852}
   m_Layer: 6
   m_Name: ObjectivesController
   m_TagString: Untagged
@@ -47,3 +48,20 @@ MonoBehaviour:
   listObjectives: []
   amountObjectives: 4
   prefabObjective: {fileID: 8855368390638121007, guid: dd2bd9df990f144d6b40649b65257428, type: 3}
+  painter: {fileID: 0}
+--- !u!114 &3374646483245681852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2465922777792588826}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f0b1c81d138f47ecb0df6ee20abda55, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  aList: []
+  isPainting: 0
+  brush: {fileID: 0}
+  prefabToPaint: {fileID: 0}

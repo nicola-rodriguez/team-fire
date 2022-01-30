@@ -6,6 +6,8 @@ using UnityEngine.SceneManagement;
 
 public class ObjectiveSensor : MonoBehaviour
 {
+    public Painting painter;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -25,7 +27,9 @@ public class ObjectiveSensor : MonoBehaviour
         GameManager.singleton.objectiveCount--;
         if (GameManager.singleton.objectiveCount == 0)
         {
-            Debug.Log("You won the game!");
+            //Debug.Log("You won the game!");
+            GameManager.singleton.gamesWon = GameManager.singleton.gamesWon+1;
+            GameManager.singleton.countOfPainted = painter.aList.Count;
             SceneManager.LoadScene("VictoryScene");
         }
     }

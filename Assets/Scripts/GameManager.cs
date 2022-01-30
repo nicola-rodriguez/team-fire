@@ -5,6 +5,8 @@ public class GameManager : MonoBehaviour
     public Transform levelBounds;
     public float chosenHeight = 1f;
     public int objectiveCount = 0;
+    public int countOfPainted = 0;
+    public int gamesWon = 0;
 
     void Awake()
     {
