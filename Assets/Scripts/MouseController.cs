@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -6,39 +7,48 @@ namespace DefaultNamespace
     public class MouseController : MonoBehaviour
     {
         private Vector3 _mousePosition;
+        public float mousePositionX;
+        public float mousePositionY;
         public Transform targetObject;
-        private const float MAXX = 1f, MAXY = 0.5f, RATIO = 1000f;
+        public float MAXX = 1f, MAXY = 0.5f, RATIO = 100f;
         public float zcoord = -2;
         public Painting paintBrush;
 
         // Use this for initialization
         void Start()
         {
+            _mousePosition = new Vector3(0, 0, zcoord);
+            MAXX = GameManager.singleton.levelBounds.localScale.x / 2;
+            MAXY = GameManager.singleton.levelBounds.localScale.y / 2;
+            RATIO = RATIO/Math.Max(MAXX, MAXY);
         }
 
         void Update()
         {
-            var x = Mouse.current.position.x.ReadValue() / RATIO;
-            var y = Mouse.current.position.y.ReadValue() / RATIO;
-            if (x > MAXX)
+            mousePositionX = (Mouse.current.delta.x.ReadValue() / RATIO) + _mousePosition.x;
+            mousePositionY = (Mouse.current.delta.y.ReadValue() / RATIO) + _mousePosition.y;
+            
+            
+            
+            if (mousePositionX > MAXX)
             {
-                x = MAXX;
+                mousePositionX = MAXX;
             }
-            else if (x < -MAXX)
+            else if (mousePositionX < -MAXX)
             {
-                x = -MAXX;
-            }
-
-            if (y > MAXY)
-            {
-                y = MAXY;
-            }
-            else if (y < -MAXY)
-            {
-                y = -MAXY;
+                mousePositionX = -MAXX;
             }
 
-            _mousePosition = new Vector3(x, y, zcoord);
+            if (mousePositionY > MAXY)
+            {
+                mousePositionY = MAXY;
+            }
+            else if (mousePositionY < -MAXY)
+            {
+                mousePositionY = -MAXY;
+            }
+            
+            _mousePosition = new Vector3(mousePositionX, mousePositionY, zcoord);
             targetObject.transform.position = _mousePosition;
 
             if (Mouse.current.leftButton.wasPressedThisFrame)
