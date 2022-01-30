@@ -8,13 +8,33 @@ PrefabInstance:
     serializedVersion: 2
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1781687137367021023, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 3316346898559211540, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
       propertyPath: m_IsTrigger
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4200565388496575118, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4200565390113648990, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 5490802115147325124, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
       propertyPath: m_IsTrigger
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6655300928380236258, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103447026655380415, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8103447026969838745, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
       propertyPath: m_RootOrder
@@ -63,6 +83,22 @@ PrefabInstance:
     - target: {fileID: 8103447026969838746, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
       propertyPath: m_Name
       value: XR Origin - Direct Interact
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103447026969838746, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103447027396784552, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103447027672253277, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 8103447027872396388, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 8103447027872396387, guid: b68d021bc8f45ac4ca5f54b7b078f649, type: 3}
