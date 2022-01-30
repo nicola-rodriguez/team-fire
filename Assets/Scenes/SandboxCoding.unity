@@ -192,18 +192,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: GameManager
       objectReference: {fileID: 0}
-    - target: {fileID: 2598857539517840509, guid: ec4fcecd5ae9b4d83b0a0d79c4435c77, type: 3}
-      propertyPath: m_StaticEditorFlags
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6749429209388836935, guid: ec4fcecd5ae9b4d83b0a0d79c4435c77, type: 3}
-      propertyPath: levelBounds
-      value: 
-      objectReference: {fileID: 1883627132}
-    - target: {fileID: 6749429209388836935, guid: ec4fcecd5ae9b4d83b0a0d79c4435c77, type: 3}
-      propertyPath: objectiveCount
-      value: 4
-      objectReference: {fileID: 0}
     - target: {fileID: 7388765344613043017, guid: ec4fcecd5ae9b4d83b0a0d79c4435c77, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -380,11 +368,6 @@ PrefabInstance:
     m_RemovedComponents: []
     m_AddedGameObjects: []
   m_SourcePrefab: {fileID: 100100000, guid: acaf1a458f0e73747afc058860b14546, type: 3}
---- !u!4 &1883627132 stripped
-Transform:
-  m_CorrespondingSourceObject: {fileID: 3522497651835006835, guid: acaf1a458f0e73747afc058860b14546, type: 3}
-  m_PrefabInstance: {fileID: 1383024207}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1984319769
 PrefabInstance:
   m_ObjectHideFlags: 0

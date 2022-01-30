@@ -32,7 +32,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 4
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &6749429209388836935
 MonoBehaviour:
@@ -47,8 +47,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   levelBounds: {fileID: 0}
-  chosenHeight: 0
-  objectiveCount: 0
+  chosenHeight: 1
+  objectiveCount: 4
 --- !u!82 &1143264912
 AudioSource:
   m_ObjectHideFlags: 0
