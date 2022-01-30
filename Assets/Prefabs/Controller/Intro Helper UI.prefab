@@ -85,10 +85,13 @@ MonoBehaviour:
     1. Face the
     Quest, sitting or standing
 
-    1. Hold the Left and Right controllers straight
-    out to either side
+    2. Hold the Left controller at the top of your
+    play zone
 
-    3. Press any controller button to start the game!'
+    3. Hold the Right controller at the bottom of your play zone
+
+    4.
+    Press any controller button to start the game!'
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -122,7 +125,7 @@ MonoBehaviour:
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 0
-  m_HorizontalAlignment: 2
+  m_HorizontalAlignment: 1
   m_VerticalAlignment: 512
   m_textAlignment: 65535
   m_characterSpacing: 0
